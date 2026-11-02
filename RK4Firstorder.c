@@ -30,8 +30,6 @@ int main()
         yt=y0;
         x0=x1;
         y0=y1;
-
-
     }
     printf ("The final value of y is %0.4f",yt);
     return 0;
