@@ -9,9 +9,6 @@ float f (float x)
     return (z);
 }
 
-
-
-
 int main()
 {
     float a,b,c,t,d;
@@ -21,7 +18,6 @@ int main()
     scanf ("%f %f %f", &a, &b, &t);
     if (f(a)*f(b)<0)
     {
-            
             do 
             {
                 c=(a+b)/2;
@@ -48,9 +44,5 @@ int main()
     {
         printf ("There is no root in the interval. \n");
     }
-
-
-
-
 return 0;
 }
